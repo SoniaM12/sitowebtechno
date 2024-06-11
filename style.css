@@ -1,0 +1,461 @@
+body {
+    background-image: url(sfoc.png);
+    background-size: cover;       
+    background-repeat: no-repeat; 
+    background-position: center;  
+    height: 100%;                
+    margin: 0; 
+}
+
+img {
+    max-width: 100%;
+}
+
+header {
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 20px 30px; 
+    margin: auto;
+}
+
+header nav {
+    margin-right: 10px;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 30px; 
+    margin-right: 30px;
+}
+
+header h1 a {
+    color: #00FFB3;
+    font-family: "Ethnocentric";
+    font-size: 40px;
+    text-decoration: none;
+}
+
+header nav ul li a {
+    color: #00FFB3;
+    font-family: "Inconsolata";
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.titolohome p {
+    color: #C7F900;
+    font-family: Glorian;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+    padding-bottom: 0;
+}
+
+.homepage {
+    margin: auto;
+    max-width: 1036px;
+}
+
+.immagine {
+    flex-shrink: 0;
+    margin: auto;
+}
+
+.testohome h1 {
+    color: #C7F900;
+    font-family: Glorian;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+    text-transform: uppercase;
+}
+
+.testohome p {
+    color: #FFF;
+    font-family: Inconsolata;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; 
+    text-transform: uppercase;
+    width: 700px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.storia,
+.festivall {
+    background-image: url(cioppobello.png);
+    background-size: cover;       
+    background-repeat: repeat; 
+    background-position: center;  
+    height: 100vh;                
+    margin: 0; 
+}
+
+.titoloindice {
+    color: #9747FF;
+    text-align: center;
+    font-family: "Glorian";
+    font-size: 32px;
+    width: 100%; 
+    max-width: 734px; 
+    margin: 0 auto; 
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+.cornice-1, .cornice-2, .cornice-3, .cornice-4, .cornice-5 {
+    border: 2px solid; 
+    padding: 10px; 
+    width: 664px;
+    height: 75px; 
+    color: #FFF;
+    font-family: Inconsolata;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    text-align: center;
+    margin: auto; 
+    margin-top: 20px;
+}
+
+.cornice-1 { border-color: #00FFB3; margin-top: 100px; }
+.cornice-2 { border-color: #00A3FF; }
+.cornice-3 { border-color: #AB63FF; }
+.cornice-4 { border-color: #C7F900; }
+.cornice-5 { border-color: #F96900; }
+
+a {
+    color: white; 
+    text-decoration: none; 
+}
+
+a:hover {
+    text-decoration: underline; 
+    color: white;
+}
+
+.story {
+    background-image: url(sfondocon.png);
+    background-size: cover;       /* Ridimensiona l'immagine per coprire l'intera area */
+    background-repeat: no-repeat; /* Evita la ripetizione dell'immagine */
+    background-position: center;  /* Centra l'immagine */
+    height: 100%;                /* Imposta l'altezza della sezione per riempire l'intera finestra */
+    margin: 0; 
+}
+
+.contenuto {
+    color: black;
+    font-family: Inconsolata;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; 
+    width: 740px;
+    height: 869px;
+    flex-shrink: 0;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.contenitore-frecce {
+    text-align: center;
+}
+
+.frecciadestra, .frecciasinistra {
+    display: inline-block;
+    margin-top: 200px;
+    margin-bottom: 150px;
+}
+
+.rettangolo {
+    background-color: #00FFF7; 
+    color: #6E44FF; 
+    font-size: 30px; 
+    border-radius: 19px; 
+    text-align: center;
+    line-height: 59px;
+    width: 306px;
+    height: 59px;
+    margin: auto;
+}
+
+.festivalgenerale {
+    background-image: url(cioppobello.png);
+    background-size: cover;       
+    background-repeat: no-repeat; 
+    background-position: center;             
+    margin: auto;
+    margin-top: 200px;
+}
+
+.festivalgenerale h1 {
+    color: #00FFB3;
+    font-family: Glorian;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 800px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.festivalgenerale p {
+    color: #FFFCFC;
+    font-family: Cantarell;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 1.4px;
+    width: 800px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.festivalgenerale ul li a{
+    color: #AB63FF;
+    font-family: Cantarell;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; 
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    width: 453px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.festivalgenerale ul li a:hover {
+    text-decoration: underline;
+}
+
+.elencofestival {
+    justify-content: center;
+    text-align: center;
+}
+
+.diecifestival {
+    background-image: url(sfondofestival.png);
+    background-size: cover;       /* Ridimensiona l'immagine per coprire l'intera area */
+    background-repeat: no-repeat; /* Evita la ripetizione dell'immagine */
+    background-position: center;  /* Centra l'immagine */
+    height: 100%;                /* Imposta l'altezza della sezione per riempire l'intera finestra */
+    margin: 0; 
+    text-align: center;
+}
+.ifestival{
+    margin-top: 520px;
+}
+.ifestival h1 {
+    color: #00FFB3;
+    font-family: Glorian;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.festivalimg {
+    display: flex;
+    justify-content: center;
+}
+
+.festivalimg img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0; /* Margine per distanziare l'immagine dagli altri elementi */
+    width: 925px;
+    height: 618px;
+}
+
+
+.ifestival h2 {
+    color: #C7F900;
+    font-family: "Cantarell";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; 
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.ifestival p {
+    color: #FFF;
+    font-family: "Inconsolata";
+    text-align: left;
+    font-size: 25px;
+    font-style: normal;
+    line-height: 150%; 
+    width: 700px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.condizioni {
+    margin-top: 150px;
+    color: #00FFB3;
+    font-family: Archivo;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    text-transform: uppercase;
+}
+.indicefestival{
+    margin-top: 200px;
+    text-align: center;
+}
+.indicefestival ul li a{
+    color: #AB63FF;
+    font-family: Cantarell;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; 
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    width: 453px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.indicefestival ul li a:hover {
+    text-decoration: underline;
+}
+
+.outer-container {
+    position: absolute; /* Necessario per il posizionamento assoluto dell'immagine interna */
+    display: inline-block; /* Per adattarsi alle dimensioni dell'immagine esterna */
+}
+
+.outer-image {
+    display: block; /* Per evitare spazi indesiderati sotto l'immagine */
+    width: 100%; /* Adatta la larghezza dell'immagine al contenitore */
+}
+
+.inner-container {
+    position: absolute; /* Posiziona l'immagine interna sopra quella esterna */
+    top: 50px; /* Regola la posizione verticale dell'immagine interna */
+    left: 35px; /* Regola la posizione orizzontale dell'immagine interna */
+    width: 80%; /* Dimensioni dell'immagine interna */
+    height: 80%; /* Mantiene le proporzioni dell'immagine interna */
+}
+
+.inner-image {
+    width: 90%; /* Adatta la larghezza dell'immagine interna al contenitore */
+    height: auto; /* Mantiene le proporzioni dell'immagine interna */
+}
+.musica{
+    background-image: url(musicsfondo.png);
+    background-size: cover;       /* Ridimensiona l'immagine per coprire l'intera area */
+    background-repeat: no-repeat; /* Evita la ripetizione dell'immagine */
+    background-position: center;  /* Centra l'immagine */
+    height: 100%;                /* Imposta l'altezza della sezione per riempire l'intera finestra */
+    margin: 0; 
+    text-align: center;
+}
+.playlist{
+    margin-top: 120px;
+}
+
+.playlist h1{
+    color: #FFF;
+ text-align: left;
+ font-family: VALORANT;
+ font-size: 30px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: 111.542%; /* 35.694px */
+ letter-spacing: 2.24px;
+ text-transform: uppercase;
+ margin-left: 50px;
+}
+
+.playlist h2{
+    color: #FFF;
+ text-align: left;
+ font-family: VALORANT;
+ font-size: 20px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: 111.542%; /* 35.694px */
+ letter-spacing: 2.24px;
+ text-transform: uppercase;
+ margin-left: 50px;
+}
+
+.photo-row {
+    display: flex;
+    margin-left: 50px;
+    gap: 30px; 
+    margin-top: 50px;
+}
+
+.photo-row a {
+    display: block;
+}
+
+.photo-row img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.photo-row2 {
+    display: flex;
+    margin-left: 600px;
+    margin-top: 50px;
+    gap: 30px; 
+}
+
+.photo-row2 a {
+    display: block;
+}
+
+.photo-row2 img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+
+.footer {
+    background-color: blueviolet;
+    color: #00FFB3;
+    padding: 50px;
+    text-align: right;
+    margin-top: 1000px;
+}
+
+.footer-links a {
+    color: #00FFB3;
+    font-family: "Inconsolata";
+    font-size: 20px;
+    line-height: 50px;
+    text-decoration: none;
+    text-align: center;
+    margin-right: 30px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
